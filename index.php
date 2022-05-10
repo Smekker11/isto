@@ -7,7 +7,7 @@
 <body style="background-color: #dce74b;">
 <h1 style="color: #b37a00;">CARTEA EGIPTEANA</h1>
 <canvas id="pacanHUD" height="400" width="800" style="border: 15px solid black;"></canvas>
-<button id="but" type="button" onclick="pacan();">spin!</button>
+<button id="but" type="button" onclick="pacan();">PREZICE!</button>
 <p id="rand">oki</p>
 <img id="a1" height="90" width="90" src="nimc.jpg"></img>
 <img id="b1" height="90" width="90" src="nimc.jpg"></img>
@@ -18,11 +18,11 @@
 <img id="a3" height="90" width="90" src="nimc.jpg"></img>
 <img id="b3" height="90" width="90" src="nimc.jpg"></img>
 <img id="c3" height="90" width="90" src="nimc.jpg"></img>
-<button id="m20"  type="button" onclick="m20();">miza 20</button>
-<button id="m200" type="button" onclick="m200();">miza 200</button>
-<button id="m500" type="button" onclick="m500();">miza 500</button>
-<p id="miza" style="position: absolute; top: 400px; left: 50px; font-size: 25px;">miza: 20</p>
-<p style="position: absolute; top: 400px; left: 180px; font-size: 25px;">credit:</p>
+<button id="m20"  type="button" onclick="m20();">prezicere 20</button>
+<button id="m200" type="button" onclick="m200();">prezicere 200</button>
+<button id="m500" type="button" onclick="m500();">prezicere 500</button>
+<p id="miza" style="position: absolute; top: 400px; left: 50px; font-size: 25px;">prezicere: 20</p>
+<p style="position: absolute; top: 380px; left: 140px; font-size: 25px;">Puncte spirituale:</p>
 <p id="credit" style="position: absolute; top: 400px; left: 250px; font-size: 25px;">5000</p>
 <hr class="line" id="hr1" >
 <hr class="line" id="hr2">
@@ -43,11 +43,11 @@
 </div>
 <!--binbus DU BLAJ-->
 <canvas id="bublajHUD" height="400" width="400" style="border: 15px solid black;"></canvas>
-<h2 id="bulacheh2">Mult Noroc!</h2>
+<h2 id="bulacheh2">Mult Noroc!(حظ سعيد!)</h2>
 <img id="redcard" src="red-card.png" height="140" width="100"></img>
 <img id="blackcard" src="black-card.png" height="140" width="100"></img>
-<button id="bred" onclick="fred();">rosu</button>
-<button id="bblack" onclick="fblack();">negru</button>
+<button id="bred" onclick="fred();">Creatia</button>
+<button id="bblack" onclick="fblack();">Distrugerea</button>
 <button id="bnimc" onclick="fnimc();">NIMIC</button>
 <img id="lred" src="dublaj-lumin.png" height="20" width="20"></img>
 <img id="lblack" src="dublaj-lumin.png" height="20" width="20"></img>
@@ -76,15 +76,15 @@ function bublaj(cota){
 }
 function m20(){
  nmiz = 20;
- document.getElementById("miza").innerHTML = "miza: 20";
+ document.getElementById("miza").innerHTML = "prezicere: 20";
 }
 function m200(){
  nmiz = 200;
- document.getElementById("miza").innerHTML = "miza: 200";
+ document.getElementById("miza").innerHTML = "prezicere: 200";
 }
 function m500(){
  nmiz = 500;
- document.getElementById("miza").innerHTML = "miza: 500";
+ document.getElementById("miza").innerHTML = "prezicere: 500";
 }
 function getRndInteger(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
