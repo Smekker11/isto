@@ -35,11 +35,11 @@
 </audio>
 <!--TEXTUS-->
 <div id="textus">
-  <h3>Horus,vine de la cuvântul "Ho"- care în traducere liberă înseamnă "față, chip", fiul lui Isis și al lui Osiris, zeu protector al Egiptului, este reprezentat cu cap de șoim.</h3><img src="lemon.png"></img>
-  <h3>Ankh este o hieroglifă egipteană, simbol a vieții lungi. Faraonii primeau o amuletă sub formă de ankh la naștere.</h3><img src="orange.jpg"></img>
-  <h3>Masca lui Tutankhamon este o mască de aur a faraonului egiptean Tutankhamon din Dinastia a XVIII-a</h3><img src="cherry.jpg"></img>
-  <h3>Piramidele din Giza complex de monumente antice, se numără printre cele mai cunoscute piramide din antichitate, ele fiind considerate una dintre cele șapte minuni ale lumii antice.</h3><img src="seven.png"></img>
-  <h3>Anubis este denumirea în greaca clasică a zeului egiptean cu cap de șacal asociat mumificării și vieții de apoi. În limba egipteană veche Anubis era cunoscut ca Inpu și protectorul mormintelor.</h3><img src="plum.png"></img>
+  <h3>Horus,vine de la cuvântul "Ho"- care în traducere liberă înseamnă "față, chip", fiul lui Isis și al lui Osiris, zeu protector al Egiptului, este reprezentat cu cap de șoim.</h3><img height="120" width="120" src="lemon.png"></img>
+  <h3>Ankh este o hieroglifă egipteană, simbol a vieții lungi. Faraonii primeau o amuletă sub formă de ankh la naștere.</h3><img height="120" width="120" src="orange.jpg"></img>
+  <h3>Masca lui Tutankhamon este o mască de aur a faraonului egiptean Tutankhamon din Dinastia a XVIII-a</h3><img height="120" width="120" src="cherry.jpg"></img>
+  <h3>Piramidele din Giza complex de monumente antice, se numără printre cele mai cunoscute piramide din antichitate, ele fiind considerate una dintre cele șapte minuni ale lumii antice.</h3><img height="120" width="120" src="seven.png"></img>
+  <h3>Anubis este denumirea în greaca clasică a zeului egiptean cu cap de șacal asociat mumificării și vieții de apoi. În limba egipteană veche Anubis era cunoscut ca Inpu și protectorul mormintelor.</h3><img height="120" width="120" src="plum.png"></img>
 </div>
 <!--binbus DU BLAJ-->
 <canvas id="bublajHUD" height="400" width="400" style="border: 15px solid black;"></canvas>
@@ -716,7 +716,7 @@ function fnimc(){
  border: 4px;
  border-color: black;
  color: red;
- padding: 15px 385px;
+ padding: 15px 365px;
  text-align: center;
  display: inline-block;
  font-size: 16px;
