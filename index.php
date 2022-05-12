@@ -21,9 +21,11 @@
 <button id="m20"  type="button" onclick="m20();">prezicere 20</button>
 <button id="m200" type="button" onclick="m200();">prezicere 200</button>
 <button id="m500" type="button" onclick="m500();">prezicere 500</button>
-<p id="miza" style="position: absolute; top: 400px; left: 50px; font-size: 25px;">prezicere: 20</p>
-<p style="position: absolute; top: 380px; left: 140px; font-size: 25px;">Puncte spirituale:</p>
-<p id="credit" style="position: absolute; top: 400px; left: 250px; font-size: 25px;">5000</p>
+<h3 id="speciala-t">Vraji de la zei:</h3>
+<h3 id="speciala">0</h3>
+<p id="miza" style="position: absolute; top: 380px; left: 30px; font-size: 25px;">prezicere: 20</p>
+<p style="position: absolute; top: 380px; left: 540px; font-size: 25px;">Puncte spirituale:</p>
+<p id="credit" style="position: absolute; top: 380px; left: 720px; font-size: 25px;">5000</p>
 <hr class="line" id="hr1" >
 <hr class="line" id="hr2">
 <hr class="line" id="hr3">
@@ -35,12 +37,14 @@
 </audio>
 <!--TEXTUS-->
 <div id="textus">
-  <h3>Horus,vine de la cuvântul "Ho"- care în traducere liberă înseamnă "față, chip", fiul lui Isis și al lui Osiris, zeu protector al Egiptului, este reprezentat cu cap de șoim.</h3><img height="120" width="120" src="lemon.png"></img>
-  <h3>Ankh este o hieroglifă egipteană, simbol a vieții lungi. Faraonii primeau o amuletă sub formă de ankh la naștere.</h3><img height="120" width="120" src="orange.jpg"></img>
-  <h3>Masca lui Tutankhamon este o mască de aur a faraonului egiptean Tutankhamon din Dinastia a XVIII-a</h3><img height="120" width="120" src="cherry.jpg"></img>
-  <h3>Piramidele din Giza complex de monumente antice, se numără printre cele mai cunoscute piramide din antichitate, ele fiind considerate una dintre cele șapte minuni ale lumii antice.</h3><img height="120" width="120" src="seven.png"></img>
-  <h3>Anubis este denumirea în greaca clasică a zeului egiptean cu cap de șacal asociat mumificării și vieții de apoi. În limba egipteană veche Anubis era cunoscut ca Inpu și protectorul mormintelor.</h3><img height="120" width="120" src="plum.png"></img>
+  <h3 class='ht'>Horus,vine de la cuvântul "Ho"- care în traducere liberă înseamnă "față, chip", fiul lui Isis și al lui Osiris, zeu protector al Egiptului, este reprezentat cu cap de șoim.</h3><img class='it' height="100" width="120" src="lemon.png"></img>
+  <h3 class='ht'>Ankh este o hieroglifă egipteană, simbol a vieții lungi. Faraonii primeau o amuletă sub formă de ankh la naștere. De asemenea Ankh-ul era folosit pentru protecție împotriva spiritelor rele.</h3><img class='it' height="100" width="120" src="orange.jpg"></img>
+  <h3 class='ht'>Masca lui Tutankhamon este o mască de aur a faraonului egiptean Tutankhamon din Dinastia a XVIII-a. A fost descoperită de Howard Carter în 1925 in Valea Regilor.</h3><img class='it' height="100" width="120" src="cherry.jpg"></img>
+  <h3 class='ht'>Piramidele din Giza complex de monumente antice, se numără printre cele mai cunoscute piramide din antichitate, ele fiind considerate una dintre cele șapte minuni ale lumii antice.</h3><img class='it' height="100" width="120" src="seven.png"></img>
+  <h3 class='ht'>Anubis este denumirea în greaca clasică a zeului egiptean cu cap de șacal asociat mumificării și vieții de apoi. În limba egipteană veche Anubis era cunoscut ca Inpu și protectorul mormintelor.</h3><img class='it' height="100" width="120" src="plum.png"></img>
 </div>
+<!--bibliografus-->
+<div id="bib"></div>
 <!--binbus DU BLAJ-->
 <canvas id="bublajHUD" height="400" width="400" style="border: 15px solid black;"></canvas>
 <h2 id="bulacheh2">Mult Noroc!(حظ سعيد!)</h2>
@@ -53,12 +57,20 @@
 <img id="lblack" src="dublaj-lumin.png" height="20" width="20"></img>
 <img id="lnimc" src="dublaj-lumin.png" height="20" width="20"></img>
 <img id="winpn" src="win.png" height="40" width="100"></img>
+<!--iframus-->
+<div id="iframus">
+<iframe class="ifram" height="600" width="1200" src="https://www.youtube.com/embed/TMzouTzim0o"></iframe>
+<h2>Interiorul piramidei din Giza vazut in 360.</h2>
+<iframe class="ifram" height="600" width="1200" src="https://www.youtube.com/embed/dz8qoMeNlBs"></iframe>
+<h2>Exteriorul piramidei vazuta cu drona.</h2>
+</div>
 <!--binbus DU BLAJ-->
 <script>
 var credit = 5000;
 var nmiz = 20;
 var winsml = new Audio('winsml.mp3');
 var winbig = new Audio('winbig.mp3');
+var speciala = 0;
 function bublaj(cota){
  var rand = getRndInteger(0,99);
  if(rand<=49&&nblack==1){
@@ -98,6 +110,9 @@ document.getElementById("hr3").style.opacity = 0;
 document.getElementById("hr4").style.opacity = 0;
 document.getElementById("hr5").style.opacity = 0;
 document.getElementById("winpn").style.opacity = 0;
+//
+// speciala counter
+document.getElementById("speciala").innerHTML = speciala;
 //
 //
 var n1,n1,n3,n4,n5,n6,n7,n8,n9,nspec;
@@ -145,6 +160,7 @@ if(nspec==44){
   document.getElementById("a3").src = "speciala.gif";
   document.getElementById("b3").src = "speciala.gif";
   document.getElementById("c3").src = "speciala.gif";
+  speciala++; // speciala=speciala+1;
 }
 else
 {
@@ -700,6 +716,7 @@ function fnimc(){
   top: 550px;
   background: rgb(77,46,3,0.5);
   border: 6px solid black;
+  width: 100%;
 }
 #flute{
   position: absolute;
@@ -875,7 +892,7 @@ function fnimc(){
 #lblack{
  position: absolute;
  top: 260px;
- left: 1170px;
+ left: 1200px;
  opacity: 0;
 }
 #lnimc{
@@ -889,6 +906,36 @@ function fnimc(){
   top: 320px;
   left: 1055px;
   opacity: 0;
+}
+.ht{
+ position: relative;
+ text-align: center;
+}
+.it{
+  position: relative;
+  display: block;
+  margin: auto;
+}
+#iframus{
+  position: absolute;
+  border: 6px solid black;
+  background: rgb(77,46,3,0.5);
+  top: 1420px;
+  width: 100%;
+}
+.ifram{
+  position: relative;
+  border: 1px solid rgb(77,46,3,0.5);
+}
+#speciala-t{
+  position: absolute;
+  left: 540px;
+  top: 300px;
+}
+#speciala{
+  position: absolute;
+  left: 700px;
+  top: 300px;
 }
 </style>
 </body>
