@@ -1,0 +1,161 @@
+#textus{
+    position: relative;
+    background: rgb(77,46,3,0.5);
+    border: 6px solid black;
+    width: 100%;
+    padding: 10px;
+  }
+  #pacanHUD {
+   position: relative;
+   background-image: url('canvas_pacan.bmp');
+   border: 15px solid black;
+   width: 100%;
+   margin: auto;
+  }
+  #but {
+   background-color: green;
+   border: 4px;
+   border-color: black;
+   color: red;
+   padding: 15px;
+   text-align: center;
+   display: inline-block;
+   font-size: 16px;
+   cursor: pointer;
+   width: 100%;
+  }
+  #but-wrapper{
+    flex: 1; 
+  }
+  .line {
+    position: relative;
+    width: 20%;
+    border-width: 2px;
+    height: 2px;
+  }
+  #hr1{
+   top: 170px;
+   left: 180px;
+   background-color: red;
+   opacity: 0;
+  }
+  #hr2{
+   top: 260px;
+   left: 180px;
+   background-color: cyan;
+   opacity: 0;
+  }
+  #hr3{
+   top: 350px;
+   left: 180px;
+   background-color: green;
+   opacity: 0;
+  }
+  #hr4{
+   transform: rotate(45deg);
+   top: 260px;
+   left: 180px;
+   background-color: yellow;
+   opacity: 0;
+  }
+  #hr5{
+   transform: rotate(135deg);
+   top: 270px;
+   left: 180px;
+   background-color: magenta;
+   opacity: 0;
+  }
+  /*dublaj frazic*/
+  #bublajHUD {
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+  }
+  #redcard {
+   position: relative;
+  }
+  #blackcard{
+    position: relative;
+  }
+  #lred {
+   position: relative;
+   opacity: 0;
+  }
+  #lblack{
+   position: relative;
+   opacity: 0;
+  }
+  #lnimc{
+   position: relative;
+   opacity: 0;
+  }
+  #winpn{
+    position: relative;
+    opacity: 0;
+  }
+  .ht{
+   position: relative;
+   text-align: center;
+  }
+  .it{
+    position: relative;
+    display: block;
+    margin: auto;
+  }
+  #iframus{
+    position: relative;
+    border: 6px solid black;
+    background: rgb(77,46,3,0.5);
+    width: 100%;
+  }
+  .ifram{
+    position: relative;
+    border: 1px solid rgb(77,46,3,0.5);
+    width: 100%;
+    height: 400px;
+  }
+  #speciala-t{
+    position: relative;
+  }
+  #speciala{
+    position: relative;
+  }
+  #credit{
+    font-size: 25px;
+  }
+  #pacan-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: goldenrod;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+  }
+  .pacan-char{
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+  }
+  .pacan-char-img{
+    width: inherit;
+    height: inherit;
+  }
+  #score-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: auto;
+  }
+  #score{
+    text-align: center;
+  }
+  #dublaj-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: auto;
+    width: 100%;
+  }
+  #dublaj-part{
+    text-align: center;
+  }
