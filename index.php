@@ -48,6 +48,8 @@
 <div id="dublaj-part"><img id="lred" src="dublaj-lumin.png" height="20" width="20"></img></div>
 <div id="dublaj-part"><img id="lblack" src="dublaj-lumin.png" height="20" width="20"></img></div>
 </div>
+<div id="dublaj-part"><img id="lnimc" src="dublaj-lumin.png" height="20" width="20"></div>
+<div id="dublaj-part"><button onclick="fnimc();">Prezicere Impartiala</button></div>
 <div align="center"><img id="winpn" src="win.png" height="40" width="100"></img></div>
 <h2 align="center" id="bulacheh2">Mult Noroc!(حظ سعيد!)</h2>
 </div>
@@ -59,8 +61,6 @@
   <h3 class='ht'>Piramidele din Giza complex de monumente antice, se numără printre cele mai cunoscute piramide din antichitate, ele fiind considerate una dintre cele șapte minuni ale lumii antice.</h3><img class='it' height="100" width="120" src="seven.png"></img>
   <h3 class='ht'>Anubis este denumirea în greaca clasică a zeului egiptean cu cap de șacal asociat mumificării și vieții de apoi. În limba egipteană veche Anubis era cunoscut ca Inpu și protectorul mormintelor.</h3><img class='it' height="100" width="120" src="plum.png"></img>
 </div>
-<!--bibliografus-->
-<div id="bib"></div>
 <!--iframus-->
 <div id="iframus">
 <iframe class="ifram" src="https://www.youtube.com/embed/TMzouTzim0o"></iframe>
@@ -68,13 +68,14 @@
 <iframe class="ifram" src="https://www.youtube.com/embed/dz8qoMeNlBs"></iframe>
 <h2>Exteriorul piramidei vazuta cu drona.</h2>
 </div>
-<!--binbus DU BLAJ-->
 <script src="pacan.js"></script>
-<hr class="line" id="hr1" >
-<hr class="line" id="hr2">
-<hr class="line" id="hr3">
-<hr class="line" id="hr4">
-<hr class="line" id="hr5">
-<img id="lnimc" src="dublaj-lumin.png" height="20" width="20"></img>
+<!--bibliografus-->
+<div id="bib">
+  <h2 class="ht">Bibliografie</h2>
+  <h4 class="ht">Tur virtual piramida din giza: https://youtu.be/TMzouTzim0o</h4>
+  <h4 class="ht">Piramida vazuta cu drona in 4K: https://youtu.be/dz8qoMeNlBs</h4>
+  <h4 class="ht">Toate pozele/pictogramele/imaginile acestui proiect provin de pe Wikipedia si respecta politicile Wikipedia Commons pentru utilizarea materialelor digitale.</h4>
+</div>
+<div id="hr-container"><hr class="line" id="hr1"><hr class="line" id="hr2"><hr class="line" id="hr3"><hr class="line" id="hr4"><hr class="line" id="hr5"></div>
 </body>
 </html>

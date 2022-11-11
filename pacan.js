@@ -3,21 +3,6 @@ var nmiz = 20;
 var winsml = new Audio('winsml.mp3');
 var winbig = new Audio('winbig.mp3');
 var speciala = 0;
-function bublaj(cota){
- var rand = getRndInteger(0,99);
- if(rand<=49&&nblack==1){
-   return cota * 2;
- }
- else if(rand>49&&nblack==1){
-   return cota * 0;
- }
- if(rand<=99&&rand>49&&nred==1){
-   return cota * 2;
- }
- else if(rand<=49&&nred==1){
-   return cota * 0;
- }
-}
 function m20(){
  nmiz = 20;
  document.getElementById("miza").innerHTML = "prezicere: 20";
@@ -33,6 +18,25 @@ function m500(){
 function getRndInteger(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 }
+var nred, nblack, nnimc;
+nred = 0;
+nblack = 0;
+nnimc = 1;
+function bublaj(cota){
+  var rand = getRndInteger(0,99);
+  if(rand<=49&&nblack==1){
+    return cota * 2;
+  }
+  else if(rand>49&&nblack==1){
+    return cota * 0;
+  }
+  if(rand<=99&&rand>49&&nred==1){
+    return cota * 2;
+  }
+  else if(rand<=49&&nred==1){
+    return cota * 0;
+  }
+ }
 function pacan() {
 //setare la default linii
 //
@@ -49,10 +53,6 @@ document.getElementById("speciala").innerHTML = speciala;
 //
 var n1,n1,n3,n4,n5,n6,n7,n8,n9,nspec;
 var l1,l2,l3,l4,l5,l6,l7,l8,l9;
-var nred, nblack, nnimc;
-nred = 0;
-nblack = 0;
-nnimc = 0;
 //1:lamaie
 //2:septar
 //3:pruna
