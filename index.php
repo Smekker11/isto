@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body style="background-color: #dce74b;">
-<h1 style="color: #b37a00;">CARTEA EGIPTEANA</h1>
+<h1 style="color: #b37a00;">CUBUL EGIPTEAN</h1>
 <div id="pacanHUD">
 <!--audio-->
 <div align="left"><audio controls autoplay>
