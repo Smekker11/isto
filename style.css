@@ -5,6 +5,13 @@
     width: 100%;
     padding: 10px;
   }
+  .edu-links{
+    position: relative;
+    background: rgb(80,48,7,0.5);
+    border: 6px solid black;
+    width: 100%;
+    padding: 10px;
+  }
   #bib{
     position: relative;
     background: rgb(78,181,0,0.5);
@@ -163,6 +170,16 @@
     grid-template-columns: auto auto;
     margin: auto;
     width: 100%;
+  }
+  .edu-button-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: auto;
+    width: 100%;
+  }
+  #edu-b{
+    text-align: center;
+    padding: 5;
   }
   #dublaj-part{
     text-align: center;

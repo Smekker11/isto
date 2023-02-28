@@ -91,6 +91,14 @@ Ankh-ul este popular și în rândul Păgânilor, în mare parte datorită asem�
 <h2>Exteriorul piramidei vazuta cu drona.</h2>
 </div>
 <script src="pacan.js"></script>
+<!--educativ textus links-->
+<div class="edu-links">
+  <h1 align="center">Resursele acestei lectii interactive</h1>
+  <div class="edu-button-grid">
+  <button id="edu-b" onclick="edulinkflop();">Proiectul si Discheta Floppy</button>
+  <button id="edu-b" onclick="edulinktest();">Test Evaluare</button>
+  </div>
+</div>
 <!--bibliografus-->
 <div id="bib">
   <h2 class="ht">Bibliografie</h2>
@@ -100,5 +108,6 @@ Ankh-ul este popular și în rândul Păgânilor, în mare parte datorită asem�
   <h4 class="ht">Multe texte referitoare la zei si simbolistica egipteana au fost preluate tot de pe Wikipedia.</h4>
 </div>
 <div id="hr-container"><hr class="line" id="hr1"><hr class="line" id="hr2"><hr class="line" id="hr3"><hr class="line" id="hr4"><hr class="line" id="hr5"></div>
+
 </body>
 </html>

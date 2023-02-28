@@ -1,3 +1,17 @@
+function edulinkflop(){
+ window.location.href = "/floppy/index.php"
+}
+function edulinktest(){
+  window.location.href = "/test-evaluare.php"
+}
+//
+//
+//
+//
+//
+//
+//
+//
 var credit = 5000;
 var nmiz = 20;
 var winsml = new Audio('winsml.mp3');

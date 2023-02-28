@@ -1,0 +1,16 @@
+body {
+  background-image: url('floppybackground.jpg');
+}
+#floppy8inch{
+    text-align: center;
+  }
+#text{
+  color: yellow;
+}
+#textbox1{
+  background: black;
+}
+#floppyimg-container{
+  display: grid;
+  grid-template-columns: auto auto;
+}
