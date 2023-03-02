@@ -1,8 +1,8 @@
 function edulinkflop(){
- window.location.href = "/floppy/index.php"
+ window.location.href = "./floppy/index.html"
 }
 function edulinktest(){
-  window.location.href = "/test-evaluare.php"
+  window.location.href = "https://smekker.go.ro/isto/test-evaluare.php"
 }
 //
 //
