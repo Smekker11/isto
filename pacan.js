@@ -1,5 +1,5 @@
 function edulinkflop(){
- window.location.href = "./floppy/index.html"
+ window.location.href = "/floppy/index.php"
 }
 function edulinktest(){
   window.location.href = "https://smekker.go.ro/isto/test-evaluare.php"
